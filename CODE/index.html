@@ -4,55 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <title>Website-University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-o+HJ4r+qd+OW9FXI6BqqSwlsYjyHvxj7uwajSUQIVLpwblDf/6v8xI7cJ6F64Y7n" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- <button class="button-class">Button Text</button>
+    <button id="button-id">Button Text</button> -->
 </head>
 <body>
     <header>
         <div class="top">
-          <div class="container">
-            <div class="header-top row">
-                <p>EDU<span>review</span></p>
-                <ul>
-                  <i class="fa-regular fa-circle-xmark"></i>
-                    <li><a href="">Trang chủ </a></li>
-                    <li><a href="">Học Online </a></li>
-                    <li><a href="">EduMember </a></li>
-                    <li><a href="">Trường học</a></li>
-                    <li><a href="">Khác </a></li>
-                </ul>
-                <i class="fa-solid fa-bars"></i>
-            </div>
-          </div>  
+            <div class="container">
+                <div class="header-top row">
+                    <img class="initial entered loading" src="https://edu2review.com/assets/logo.svg" alt="Edu2Review logo" data-ll-status="loading">
+                    <ul>
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Học Online</a></li>
+                        <li><a href="">EduMember</a></li>
+                        <li><a href="">Trường học</a></li>
+                        <li><a href="">Khác</a></li>
+                      </ul>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>  
         </div>
-        <div class="bg-image">
-
-        </div>
+        <div class="bg-image"></div>
         <div class="header-text">
-            <p>tìm nơi phù hợp</p>
+            <p>Tìm nơi phù hợp</p>
             <h1>Học phí tốt nhất</h1>
-            <input type="text" class="from-input">
-            <label for="Địa điểm bạn tìm?" 
-            class="from-lable">Địa điểm bạn tìm?</label>
-            <input type="text" class="from-input">
-            <label for="Bạn muốn học?" 
-            class="from-lable">Bạn muốn học?</label><input type="text" class="from-input">
-            <label for="Khóa học cần tìm?" 
-            class="from-lable">Khóa học cần tìm?</label>
-            
-            <button>Tìm kiếm</button>
+            <form>
+                <input type="text" class="form-input" placeholder="Địa điểm bạn tìm?">
+                <input type="text" class="form-input" placeholder="Bạn muốn học?">
+                <input type="text" class="form-input" placeholder="Khóa học cần tìm?">
+                <button type="submit">Tìm kiếm</button>
+            </form>
         </div>
     </header>
-    <!-- -------------Course----------- -->
+    
+    <!-- Course Section -->
     <section class="course">
-        <h1>Top khóa học giao tiếp</h1>
-        <div class="course-items">
+        <div class="container">
+            <h1>Top khóa học giao tiếp</h1>
             <div class="course-items">
-                <h2></h2>
+                <!-- Course Item 1 -->
+                <div class="course-item">
+                    <h2>Course Title</h2>
+                    <p>Description of the course...</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <!-- Course Item 2 -->
+                <div class="course-item">
+                    <h2>Course Title</h2>
+                    <p>Description of the course...</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <!-- Add more course items as needed -->
             </div>
         </div>
     </section>
-   
+
+    <!-- Add more sections for different content areas -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EDUreview. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript files (if any) should be included before closing body tag -->
+
 </body>
 </html>
