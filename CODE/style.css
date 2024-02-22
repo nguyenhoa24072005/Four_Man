@@ -125,10 +125,10 @@ header {
 }
 .header-text button{
     width: 150px;
-    height: 40px;
+    height: 35px;
     margin-top: 20px;
     background-color: transparent;
-    border: 2px solid var(--main-color);
+    border: 3px solid var(--main-color);
     color: white;
     cursor: pointer;
     font-size: 20px;
