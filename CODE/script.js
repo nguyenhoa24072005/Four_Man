@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     // Function to handle form submission
     function handleFormSubmission(event) {
